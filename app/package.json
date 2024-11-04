@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-app": "ng build --base-href https://theuncola.github.io/leighjack",
+    "deploy": "npx angular-cli-ghpages --dir=dist/app",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
