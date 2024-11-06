@@ -4,10 +4,14 @@
   box-sizing: border-box;
 }
 
+.space {
+  padding: 5px;
+}
+
 .header {
   background-color: white;
   color: #E43292;
-  margin: 0px 30px;
+  margin: 5px 30px 0 30px;
   padding: 10px 20px;
   display: flex;
   justify-content: space-between;
@@ -67,5 +71,22 @@
   .menu-toggle {
     display: block;
     color: #E43292;
+  }
+
+  .menu-open {
+    background: white;
+    margin: 0 30px 0 30px;
+    opacity: 80%;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+
+    a {
+      color: #E43292;
+      font-size: 20px;
+      display: block;
+      text-align: center;
+      padding: 15px 0;
+    }
   }
 }
