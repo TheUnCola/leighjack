@@ -1,19 +1,19 @@
 <p class="space"></p>
 <div class="header">
   <div class="logo">
-    <img class="logo" src="/assets/images/logo.png" alt="" />
-    LeighJack
+    <img class="logo" src="/assets/images/icon_notext.png" alt="" />
+    <h2>LeighJack</h2>
   </div>
   <nav class="nav">
     <ul class="nav-list">
       <li class="nav-item">
-        <a href="/home">Home</a>
+        <a routerLink="">Home</a>
       </li>
       <li class="nav-item">
-        <a href="/about">About</a>
+        <a routerLink="/about">About</a>
       </li>
       <li class="nav-item">
-        <a href="/contact">Contact</a>
+        <a routerLink="/contact">Contact</a>
       </li>
     </ul>
   </nav>
@@ -24,13 +24,13 @@
 <div *ngIf="isMenuOpen" class="menu-open">
   <ul class="menu-list">
     <li class="menu-item">
-      <a href="/home">Home</a>
+      <a routerLink="" (click)="toggleMenu()">Home</a>
     </li>
     <li class="menu-item">
-      <a href="/about">About</a>
+      <a routerLink="/about" (click)="toggleMenu()">About</a>
     </li>
     <li class="menu-item">
-      <a href="/contact">Contact</a>
+      <a routerLink="/contact" (click)="toggleMenu()">Contact</a>
     </li>
   </ul>
 </div>

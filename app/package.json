@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "add-domain": "echo leighjack.com > build/CNAME",
-    "build-app": "ng build --configuration production",
+    "build-app": "ng build --configuration production --base-href /",
     "deploy": "npx angular-cli-ghpages --dir=dist/app",
     "deploy2": "ngh --dir=dist/app",
     "watch": "ng build --watch --configuration development",

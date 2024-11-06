@@ -5,10 +5,20 @@
 
 .home {
   color: #E43292;
-  padding: 10px 20px;
+  padding: 10px 20px 50px 20px;
   display: block;
   //justify-content: space-between;
   align-items: center;
+
+  img {
+    height: 600px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home img {
+    height: 400px;
+  }
 }
 
 
