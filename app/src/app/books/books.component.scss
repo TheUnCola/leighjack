@@ -1,0 +1,30 @@
+//* {
+//  margin: 0;
+//  padding: 0;
+//}
+
+.books {
+  color: #E43292;
+  align-items: center;
+
+  img {
+    //display: flex;
+    margin: 10px;
+    //width: 40%;
+  }
+}
+
+@media (min-width: 769px) {
+  .books img {
+    width: 40%;
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) {
+  .books img {
+    display: block;
+    height: 400px;
+    margin: 10px auto;
+  }
+}
