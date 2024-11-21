@@ -25,7 +25,8 @@ export class HomeComponent implements OnInit, OnDestroy {
         };
       })
     ).subscribe(time => {
-      this.countDownTime = time.days + " Days " + time.hours + " Hours " + time.minutes + " Minutes " + time.seconds + " Seconds";
+      if(time.seconds < 0) this.countDownTime = "OUT NOW!";
+      else this.countDownTime = time.days + " Days " + time.hours + " Hours " + time.minutes + " Minutes " + time.seconds + " Seconds";
     });
   }
 
