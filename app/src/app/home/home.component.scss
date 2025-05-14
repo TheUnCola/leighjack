@@ -10,14 +10,14 @@
   align-items: center;
 
   img {
-    height: 600px;
+    height: 700px;
     cursor: pointer;
   }
 }
 
 @media (max-width: 768px) {
   .home img {
-    height: 400px;
+    height: 500px;
   }
 }
 
