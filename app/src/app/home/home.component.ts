@@ -8,7 +8,7 @@ import {interval, map, Subscription} from "rxjs";
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
-  targetDate = new Date('2025-04-08T00:00:00');
+  targetDate = new Date('2025-07-18T00:00:00');
   countdown: Subscription;
   countDownTime: any = '';
 
